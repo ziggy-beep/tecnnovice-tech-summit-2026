@@ -1,0 +1,59 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="50%" stop-color="#302b63"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+    <linearGradient id="letterT" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d2ff"/>
+      <stop offset="100%" stop-color="#3a7bd5"/>
+    </linearGradient>
+    <linearGradient id="letterN" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7971e"/>
+      <stop offset="100%" stop-color="#ffd200"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="120" cy="120" r="112" fill="url(#bg)"/>
+  <circle cx="120" cy="120" r="112" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
+
+  <!-- Thin ring accent -->
+  <circle cx="120" cy="120" r="100" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+
+  <!-- Diagonal accent line -->
+  <line x1="40" y1="180" x2="200" y2="60" stroke="#ffffff" stroke-opacity="0.05" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- T -->
+  <g filter="url(#glow)">
+    <text x="88" y="152"
+          font-family="Georgia, 'Times New Roman', serif"
+          font-size="110"
+          font-weight="700"
+          fill="url(#letterT)"
+          text-anchor="middle"
+          opacity="0.95">T</text>
+  </g>
+
+  <!-- N, overlapping -->
+  <g filter="url(#glow)">
+    <text x="158" y="152"
+          font-family="Georgia, 'Times New Roman', serif"
+          font-size="110"
+          font-weight="700"
+          fill="url(#letterN)"
+          text-anchor="middle"
+          opacity="0.95">N</text>
+  </g>
+
+  <!-- Small dot accent -->
+  <circle cx="120" cy="196" r="3" fill="#ffffff" fill-opacity="0.4"/>
+</svg>

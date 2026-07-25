@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/logo_v2.svg">
+  <title>TECNOVICE TECH SUMMIT 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-header">
+      <button class="close-btn" id="closeMenu" aria-label="Close menu">&times;</button>
+    </div>
+    <nav class="mobile-nav">
+      <a href="about.html">About</a>
+      <a href="#program">Program</a>
+      <a href="#join">Join</a>
+      <a href="#sponsor">Sponsor</a>
+      <a href="#news">News</a>
+      <a href="#" class="campaign-btn">CC Campaign</a>
+    </nav>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="top-bar">
+      <div class="top-bar-content">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#">English</a>
+        <a href="#">My Page</a>
+        <a href="#">Logout</a>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"><img src="images/logo_v2.svg" alt=""></div>
+        <div>TECNOVICE <span>TECH</span> SUMMIT 2026</div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="#program">Program</a></li>
+        <li><a href="#join">Join</a></li>
+        <li><a href="#sponsor">Sponsor</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="index.html" class="campaign-btn">CC Campaign</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-tagline">"Hello! Building Tomorrow"</p>
+      <h1 class="hero-title cocogoose">TECNOVICE<br>TECH SUMMIT<br>2026</h1>
+      <p class="hero-description">
+        A vibrant gathering of innovators, developers, and tech leaders from across Africa
+        and beyond, coming together to shape the future of technology in Cameroon and the continent.
+      </p>
+      <p class="hero-date">2026.07.24 (FRI)</p>
+      <p class="hero-location">@ TECNOVICE HQ | MOLYKO, BUEA</p>
+    </div>
+  </section>
+
+  <!-- Main Program -->
+  <section class="main-program" id="program">
+    <h2 class="section-title">Main Program</h2>
+    <div class="program-grid">
+      <article class="program-card">
+        <div class="program-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+        <div>
+          <h3>Keynotes</h3>
+          <p>Listen to visionary leaders share insights on AI, fintech, and the future of African tech.</p>
+        </div>
+      </article>
+      <article class="program-card">
+        <div class="program-icon"><i class="fas fa-laptop-code"></i></div>
+        <div>
+          <h3>Workshops</h3>
+          <p>Hands-on sessions where you build real projects using modern tools and frameworks.</p>
+        </div>
+      </article>
+      <article class="program-card">
+        <div class="program-icon"><i class="fas fa-comments"></i></div>
+        <div>
+          <h3>Forum</h3>
+          <p>Open discussions with experts on challenges and opportunities in the local tech ecosystem.</p>
+        </div>
+      </article>
+      <article class="program-card">
+        <div class="program-icon"><i class="fas fa-rocket"></i></div>
+        <div>
+          <h3>Pitch Arena</h3>
+          <p>Startups present their solutions to investors and industry leaders for feedback and funding.</p>
+        </div>
+      </article>
+      <article class="program-card">
+        <div class="program-icon"><i class="fas fa-network-wired"></i></div>
+        <div>
+          <h3>Networking</h3>
+          <p>Connect with founders, engineers, and mentors from across Cameroon and beyond.</p>
+        </div>
+      </article>
+    </div>
+    <a href="#" class="see-program">SEE THE WHOLE PROGRAM</a>
+  </section>
+
+  <!-- Featured Speakers (Dynamic) -->
+  <section class="speakers" id="speakers">
+    <div class="speakers-container">
+      <h2 class="section-title">Featured Speakers</h2>
+      <div class="speakers-grid" id="speakersGrid">
+        <!-- Speakers injected by JavaScript -->
+      </div>
+      <button class="more-btn" id="moreBtn">
+        MORE <span class="arrow">&#9660;</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Partners -->
+  <section class="partners" id="sponsor">
+    <h2 class="section-title">Partner</h2>
+    <div class="partners-logos">
+      <span>MTN</span>
+      <span>Orange</span>
+      <span>Google</span>
+      <span>Microsoft</span>
+      <span>Andela</span>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <div class="cc-icon"><img src="images/logo_v2.svg" alt="Tecnnovice Logo"></div>
+        <span>tecnnovice cameroon</span>
+      </div>
+      <p class="footer-text">
+        2026 Tecnnovice Cameroon. Some Rights Reserved.<br>
+        Building the next generation of African technologists from Buea to the world.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
