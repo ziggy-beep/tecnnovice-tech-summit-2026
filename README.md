@@ -62,8 +62,8 @@ Any static hosting service
 
 👥 Author
 
-GitHub: https://github.com/ziggy-beep
-Whatsapp: https://wa.me/<+237678273951>
+GitHub: [GitHub](https://github.com/ziggy-beep)
+Whatsapp: [whatsapp](https://wa.me/<+237678273951>)
 LinkedIn: [LinkedIn](https://www.linkedin.com/in/eko-frank-63b86a376)
 
 🔭 Future Features
